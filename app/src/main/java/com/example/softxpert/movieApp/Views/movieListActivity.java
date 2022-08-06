@@ -23,17 +23,18 @@ import com.example.softxpert.movieApp.viewModels.movieListViewModel;
 import java.util.List;
 
 public class movieListActivity extends AppCompatActivity implements filterClickListener {
-    movieListViewModel movieListViewModel;
-    RecyclerView moviesRecyclerView,filtersRecyclerView;
-    moviesRecyclerViewAdapter movieRecyclerViewAdapter;
-    filtersRecyclerViewAdapter filtersRecyclerViewAdapter;
-    filtersViewModel filtersViewModel;
-    int page=1;
-    String genres="";
-    public List<filtersModel> filtersModelsTemp;
-    TextView Filter;
-    ImageView searchMovies;
-    EditText searchMoviesEditText;
+    private movieListViewModel movieListViewModel;
+    private RecyclerView moviesRecyclerView,filtersRecyclerView;
+    private moviesRecyclerViewAdapter movieRecyclerViewAdapter;
+    private  filtersRecyclerViewAdapter filtersRecyclerViewAdapter;
+    private  filtersViewModel filtersViewModel;
+   private int page=1;
+   private String genres="";
+    private List<filtersModel> filtersModelsTemp;
+   private TextView Filter;
+    private ImageView searchMovies;
+    private  EditText searchMoviesEditText;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -85,7 +86,7 @@ public class movieListActivity extends AppCompatActivity implements filterClickL
 
 
 
-//filters recyclerview
+            //filters recyclerview
         filtersRecyclerViewAdapter=new filtersRecyclerViewAdapter(this);
         filtersRecyclerView.setAdapter(filtersRecyclerViewAdapter);
         filtersRecyclerView.setLayoutManager(new LinearLayoutManager(this,RecyclerView.HORIZONTAL,false));

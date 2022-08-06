@@ -14,13 +14,13 @@ import com.example.softxpert.movieApp.adapters.moviesAdapter.moviesRecyclerViewA
 import com.example.softxpert.movieApp.viewModels.searchMovieListViewModel;
 
 public class searchActivity extends AppCompatActivity {
-RecyclerView searchRecyclerView;
-ImageView back;
-TextView title;
-moviesRecyclerViewAdapter moviesRecyclerViewAdapter;
-searchMovieListViewModel searchMovieListViewModel;
-int page=1;
-private String searchQuery="";
+    private RecyclerView searchRecyclerView;
+    private ImageView back;
+    private TextView title;
+    private moviesRecyclerViewAdapter moviesRecyclerViewAdapter;
+    private searchMovieListViewModel searchMovieListViewModel;
+    private int page=1;
+    private String searchQuery="";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

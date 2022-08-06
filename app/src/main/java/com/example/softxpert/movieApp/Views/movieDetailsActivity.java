@@ -15,11 +15,12 @@ import java.util.List;
 
 public class movieDetailsActivity extends AppCompatActivity {
       private movieModel movieModel;
-      TextView movieName,movieDesc,movieYearOfProduction,movieRate,movieTitle;
-      ImageView back;
-      ViewPager2 moviePoster;
-      postersAdapter postersAdapter;
-      List<String> posters;
+    private  TextView movieName,movieDesc,movieYearOfProduction,movieRate,movieTitle;
+    private   ImageView back;
+    private   ViewPager2 moviePoster;
+    private   postersAdapter postersAdapter;
+    private   List<String> posters;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
