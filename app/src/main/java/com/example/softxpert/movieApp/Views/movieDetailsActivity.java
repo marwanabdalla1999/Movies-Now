@@ -18,7 +18,6 @@ public class movieDetailsActivity extends AppCompatActivity {
     private  TextView movieName,movieDesc,movieYearOfProduction,movieRate,movieTitle;
     private   ImageView back;
     private   ViewPager2 moviePoster;
-    private   postersAdapter postersAdapter;
     private   List<String> posters;
 
     @Override
@@ -45,7 +44,7 @@ public class movieDetailsActivity extends AppCompatActivity {
     private void setupViewPager() {
         posters.add("https://image.tmdb.org/t/p/w500"+movieModel.getPoster_path());
         posters.add("https://image.tmdb.org/t/p/w500"+movieModel.getBackdrop_path());
-        postersAdapter=new postersAdapter();
+        com.example.softxpert.movieApp.adapters.postersViewPagerAdapter.postersAdapter postersAdapter = new postersAdapter();
         postersAdapter.setPosters(posters);
         moviePoster.setAdapter(postersAdapter);
     }
