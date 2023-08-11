@@ -1,24 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.softxpert">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/movies_now"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/movies_now_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Softxpert">
-        <activity android:name=".movieApp.Views.movieDetailsActivity" />
-        <activity android:name=".movieApp.Views.searchActivity" />
-        <activity android:name=".movieApp.Views.movieListActivity">
+        <activity
+            android:name=".movieApp.Views.Activities.splashScreen"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"  />
             </intent-filter>
+
+
         </activity>
+
+        <activity android:name=".movieApp.Views.Activities.noInternetConnection"
+            android:exported="true"/>
+
+        <activity
+            android:name=".movieApp.Views.Activities.viewSectionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".movieApp.Views.Activities.personProfile"
+            android:exported="false" />
+        <activity
+            android:name=".movieApp.Views.Activities.trailerPreview"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".movieApp.Views.Activities.categoryActivity"
+            android:exported="true" />
+        <activity android:name=".movieApp.Views.Activities.movieDetailsActivity" />
+        <activity
+            android:name=".movieApp.Views.Activities.searchActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".movieApp.Views.Activities.MoviesNowActivity"
+            android:exported="true">
+
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

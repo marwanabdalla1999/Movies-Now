@@ -33,12 +33,14 @@ public class searchmovieRepository {
 
     }
 
-    public static searchmovieRepository getInstance() {
-        if (instance == null){
-        instance =new searchmovieRepository();
-    }
+    public static searchmovieRepository getInstance(){
+        if (instance==null){
+            instance=new searchmovieRepository();
+        }
         return instance;
     }
+
+
 
     public LiveData<List<movieModel>> getMovies() {
         return movies;
@@ -52,13 +54,13 @@ public class searchmovieRepository {
     }
 
     private void CallSearchMovieAPI(int page, String query) {
-        Call<allMoviesResponse>  searchMovies=Servicey.getMovieApi().SearchMovies(Credentials.API_KEY,page,query);
+        Call<allMoviesResponse>  searchMovies=Servicey.getMovieApi().SearchMovies(Credentials.API_KEY,page,query,"en");
         searchMovies.enqueue(new Callback<allMoviesResponse>() {
             @Override
             public void onResponse(@NonNull Call<allMoviesResponse> call, @NonNull Response<allMoviesResponse> response) {
                 if (response.isSuccessful()){
 
-                    List<movieModel> allMoviesResponse = new ArrayList<>(((allMoviesResponse)response.body()).getMovies());
+                    List<movieModel> allMoviesResponse = new ArrayList<>(response.body().getMovies());
                     if (page==1){
                         movies.postValue(allMoviesResponse);
                     }

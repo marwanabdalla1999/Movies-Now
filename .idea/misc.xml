@@ -1,5 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/active_dot.xml" value="0.1935" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/app_background.xml" value="0.1935" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/border_top.xml" value="0.1935" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/cursor_color.xml" value="0.1045" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/gradiantbottom.xml" value="0.2015" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.2015" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/ic_baseline_arrow_back_ios_60.xml" value="0.1935" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/ic_baseline_bookmark_24.xml" value="0.1935" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.1935" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.1935" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1935" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/ic_baseline_movie_24.xml" value="0.1935" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/ic_baseline_refresh_24.xml" value="0.13" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1215" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/ic_baseline_signal_wifi_off_24.xml" value="0.13" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/ic_baseline_star_outline_24.xml" value="0.1935" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/ic_baseline_star_rate_24.xml" value="0.1935" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/ic_baseline_view_comfy_24.xml" value="0.1935" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/ic_outline_bookmark_border_24.xml" value="0.1935" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/moviesNow_foreground.xml" value="0.13" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/movies_now.xml" value="0.13" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/non_active_dot.xml" value="0.1935" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/round_transparent.xml" value="0.1935" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/search_border.xml" value="0.1935" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/tab_selector.xml" value="0.1935" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/drawable/tab_selevtor.xml" value="0.1935" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/activity_category.xml" value="0.25" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/activity_movie_details.xml" value="0.2" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/activity_movies_list.xml" value="0.264" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/activity_no_internet_connection.xml" value="0.2" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/activity_person_profile.xml" value="0.264" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/activity_search.xml" value="0.264" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/activity_splash_screen.xml" value="0.2981770833333333" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/activity_trailer_preview.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/cast_list_item.xml" value="0.2" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/categories_for_search_fragment.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/filters_item.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/fragment_blank.xml" value="0.2359375" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/movie_list_item.xml" value="0.152" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/movie_list_item_big.xml" value="0.25" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/movie_list_item_categories.xml" value="0.264" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/movie_list_item_full_size.xml" value="0.2" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/movie_list_item_gridiant.xml" value="0.264" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/movie_list_item_search.xml" value="0.25" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/movie_review_item.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/movies_watch_list_item.xml" value="0.152" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/persons_list_item.xml" value="0.264" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/search_fragment.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/topRevenuemovie_list_item.xml" value="0.25" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/trending_view_pager_item.xml" value="0.1864754098360656" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/view_pager_item.xml" value="0.25" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/watch_movies_list.xml" value="0.264" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/layout/youtube_video_player.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/menu/nav_menu.xml" value="0.25" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/mipmap-anydpi-v26/movies_now.xml" value="0.1935" />
+        <entry key="..\:/Users/marwan/AndroidStudioProjects/softxpert/app/src/main/res/mipmap-anydpi-v26/movies_now_round.xml" value="0.13" />
+      </map>
+    </option>
+  </component>
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="org.jetbrains.annotations.Nullable" />
     <option name="myDefaultNotNull" value="androidx.annotation.NonNull" />
@@ -43,7 +106,7 @@
       </value>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

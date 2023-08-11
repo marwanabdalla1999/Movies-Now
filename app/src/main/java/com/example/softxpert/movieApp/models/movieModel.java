@@ -14,7 +14,7 @@ private final String poster_path;
 
 private final String release_date;
 
-private final int movie_id;
+private final int id;
 
 private final float vote_average;
 
@@ -23,14 +23,19 @@ private final String overview;
 private final String backdrop_path;
 
 
+
     protected movieModel(Parcel in) {
         title = in.readString();
         poster_path = in.readString();
         release_date = in.readString();
-        movie_id = in.readInt();
+        id = in.readInt();
         vote_average = in.readFloat();
         overview = in.readString();
         backdrop_path=in.readString();
+    }
+
+    public int getMovie_id() {
+        return id;
     }
 
     public static final Creator<movieModel> CREATOR = new Creator<movieModel>() {
@@ -82,7 +87,7 @@ private final String backdrop_path;
         parcel.writeString(title);
         parcel.writeString(poster_path);
         parcel.writeString(release_date);
-        parcel.writeInt(movie_id);
+        parcel.writeInt(id);
         parcel.writeFloat(vote_average);
         parcel.writeString(overview);
         parcel.writeString(backdrop_path);

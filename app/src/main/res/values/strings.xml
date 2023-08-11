@@ -1,9 +1,7 @@
 <resources>
-    <string name="app_name">softxpert</string>
-    <string name="search">Search</string>
+    <string name="app_name">Movies Now</string>
     <string name="details">details</string>
-    <string name="Filter">Filter:</string>
-    <string name="All">All</string>
     <string name="back">back</string>
     <string name="poster">poster</string>
+    <!-- TODO: Remove or change this placeholder text -->
 </resources>

@@ -1,18 +1,24 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Softxpert" parent="Theme.Material3.Light.NoActionBar">
+    <style name="Theme.Softxpert" parent="Theme.Material3.Dark.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/black</item>
-        <item name="colorPrimaryVariant">@color/black</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">#1E1E1E</item>
+        <item name="colorPrimaryVariant">#1E1E1E</item>
+        <item name="colorOnPrimary">#1E1E1E</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor" tools:targetApi="l">#1E1E1E</item>
         <!-- Customize your theme here. -->
         <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="android:textColorHint">#8FFFFFFF</item>
 
+    </style>
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">#FFFFFF</item>
     </style>
 </resources>
